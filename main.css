@@ -1,0 +1,114 @@
+@media screen and (max-width: 768px) {
+    /* CSS dành cho điện thoại di động */
+}
+
+@media screen and (min-width: 769px) {
+    /* CSS dành cho máy tính và các thiết bị lớn hơn */
+}
+
+html{
+    position: relative;
+    scroll-behavior: smooth;
+    background-color: rgba(37, 195, 201,0.1) ;
+}
+.main-header a:hover {
+    color: rgb(174, 219, 9);
+}
+.main-header {
+    width: 100vw;
+    position: fixed;
+    margin-left: -8px;
+    margin-right: 0;
+    margin-top: -8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    background-color: #0b0b0bdd;
+    color: #fff;
+    
+}
+
+.logo img {
+    max-height: 100px;
+    border-radius: 50%;
+}
+
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 28px;
+}
+.main-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.search input {
+    width: 450px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+}
+.search button:hover{
+    background-color: #f5f3f3c6;
+    cursor: pointer;
+}
+.search button {
+    padding: 12px 14px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    
+}
+.cart a, .account a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 5px;
+}
+/*slider*/
+
+.slider {
+    
+   
+    justify-content: center;
+    padding: 10px 60px;
+   
+   
+}
+.slide img {
+    border-radius: 15%;
+    border: 0.1px solid black;
+    width: 450px;
+    height: auto;
+}
+.slider button{
+    background-color: rgba(234, 105, 6, 0.888);
+    cursor: pointer;
+    width: 80px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.slider button:hover{
+    background-color: rgba(220, 166, 5, 0.381);
+}
+#lienhe .contact{
+    display: flex;
+    justify-content: space-around;
+    margin: auto 200px;
+    line-height: 1.4;
+    font-size: large;
+    text-align: center;
+}
+
+
+
+
+
+
